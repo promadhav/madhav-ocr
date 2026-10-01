@@ -1,0 +1,6 @@
+**
+!Dockerfile
+!requirements.txt
+!install_deps.py
+!app.py
+!worker.py

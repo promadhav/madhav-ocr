@@ -1,0 +1,8 @@
+PASS: Python syntax for all three application scripts
+PASS: health CLI branch with mocked transport
+PASS: filename with spaces, uppercase extension and TIFF output naming
+PASS: text normalization, Chinese Unicode JSON and atomic output
+PASS: worker error propagation and stale answer removal
+PASS: missing input fails explicitly
+LIMITATION: execution environment prohibits creating sockets; real IPC subprocess test could not run.
+NOT RUN: Docker build, dependency resolution in base, AMD worker inference, cold startup, full GPU container tests or accuracy benchmark.
